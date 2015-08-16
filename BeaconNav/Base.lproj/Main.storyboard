@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dV0-rS-XmV">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emptyMap" translatesAutoresizingMaskIntoConstraints="NO" id="Cgn-4o-Nvi">
+                                <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.24999999999999967" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="BxO-Aa-bsI">
+                                <rect key="frame" x="0.0" y="72" width="320" height="408"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BxO-Aa-bsI" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="7qU-yx-djB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BxO-Aa-bsI" secondAttribute="trailing" constant="-16" id="9VZ-g9-hw0"/>
+                            <constraint firstItem="Cgn-4o-Nvi" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="L7p-J1-9x2"/>
+                            <constraint firstItem="BxO-Aa-bsI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="L8t-bD-RIO"/>
+                            <constraint firstItem="Cgn-4o-Nvi" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="M2D-QO-gwd"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="BxO-Aa-bsI" secondAttribute="bottom" id="auD-em-4By"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Cgn-4o-Nvi" secondAttribute="trailing" constant="-16" id="sT4-cL-kCx"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Cgn-4o-Nvi" secondAttribute="bottom" id="wIw-Za-LMa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="bv5-Dj-u4p"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="debugView" destination="BxO-Aa-bsI" id="Ury-0s-y7r"/>
+                        <outlet property="mapView" destination="Cgn-4o-Nvi" id="jmd-Bv-Cui"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="429"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="D8h-FR-EsM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dV0-rS-XmV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BoU-ba-RxF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="AVj-eG-5tF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kdw-Xt-ATc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="1090"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="emptyMap" width="341" height="619"/>
+    </resources>
+</document>

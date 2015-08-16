@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "Beacon Nav": {
+            "applicationId": "3WysGgk1tvtwVQC4SDljVNjqE9kmqw2ta9NQSdPh", 
+            "masterKey": "RTMOaKO98B9ikUUVBdqfS3TPnHpmJmPJpb9pigTE"
+        }, 
+        "_default": {
+            "link": "Beacon Nav"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.4.0"
+    }
+}

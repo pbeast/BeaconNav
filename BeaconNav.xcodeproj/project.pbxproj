@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCD542E38B1C71CBE1AE912C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87955A469A0D226109C367B8 /* libPods.a */; };
+		EC222E101AC96AF900C31CAA /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC222E0E1AC96AF900C31CAA /* Crashlytics.framework */; };
+		EC222E111AC96AF900C31CAA /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC222E0F1AC96AF900C31CAA /* Fabric.framework */; };
+		EC4338D81AB6FB3E004BAF5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4338D71AB6FB3E004BAF5E /* main.m */; };
+		EC4338DB1AB6FB3E004BAF5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4338DA1AB6FB3E004BAF5E /* AppDelegate.m */; };
+		EC4338DE1AB6FB3E004BAF5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4338DD1AB6FB3E004BAF5E /* ViewController.m */; };
+		EC4338E11AB6FB3E004BAF5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4338DF1AB6FB3E004BAF5E /* Main.storyboard */; };
+		EC4338E31AB6FB3E004BAF5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4338E21AB6FB3E004BAF5E /* Images.xcassets */; };
+		EC4338E61AB6FB3E004BAF5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4338E41AB6FB3E004BAF5E /* LaunchScreen.xib */; };
+		EC4338FC1AB6FB89004BAF5E /* CL_MAP_FLOOR_A.png in Resources */ = {isa = PBXBuildFile; fileRef = EC4338FB1AB6FB89004BAF5E /* CL_MAP_FLOOR_A.png */; };
+		EC4338FE1AB6FFA0004BAF5E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4338FD1AB6FFA0004BAF5E /* AVFoundation.framework */; };
+		EC4339051ABB096C004BAF5E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4339041ABB096C004BAF5E /* CoreBluetooth.framework */; };
+		EC4339071ABB0974004BAF5E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4339061ABB0974004BAF5E /* CoreLocation.framework */; };
+		EC7AD5911AD2BB2400D94C7C /* appSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC7AD5901AD2BB2400D94C7C /* appSettings.plist */; };
+		EC9A9F871ABEEFDF00164B97 /* mapData.json in Resources */ = {isa = PBXBuildFile; fileRef = EC9A9F861ABEEFDF00164B97 /* mapData.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87955A469A0D226109C367B8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB4FAFEEA7E577CB6BC94E8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A1DCE5B6750759E3B6E19664 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EC222E0E1AC96AF900C31CAA /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		EC222E0F1AC96AF900C31CAA /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		EC4338D21AB6FB3E004BAF5E /* BeaconNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4338D61AB6FB3E004BAF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4338D71AB6FB3E004BAF5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC4338D91AB6FB3E004BAF5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC4338DA1AB6FB3E004BAF5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC4338DC1AB6FB3E004BAF5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC4338DD1AB6FB3E004BAF5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC4338E01AB6FB3E004BAF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC4338E21AB6FB3E004BAF5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC4338E51AB6FB3E004BAF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC4338FB1AB6FB89004BAF5E /* CL_MAP_FLOOR_A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CL_MAP_FLOOR_A.png; sourceTree = "<group>"; };
+		EC4338FD1AB6FFA0004BAF5E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EC4339041ABB096C004BAF5E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		EC4339061ABB0974004BAF5E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EC7AD5901AD2BB2400D94C7C /* appSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = appSettings.plist; sourceTree = "<group>"; };
+		EC9A9F861ABEEFDF00164B97 /* mapData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mapData.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC4338CF1AB6FB3E004BAF5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4339071ABB0974004BAF5E /* CoreLocation.framework in Frameworks */,
+				EC222E101AC96AF900C31CAA /* Crashlytics.framework in Frameworks */,
+				EC4339051ABB096C004BAF5E /* CoreBluetooth.framework in Frameworks */,
+				EC4338FE1AB6FFA0004BAF5E /* AVFoundation.framework in Frameworks */,
+				CCD542E38B1C71CBE1AE912C /* libPods.a in Frameworks */,
+				EC222E111AC96AF900C31CAA /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E2F0140FAC1C584A7D4798E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1DCE5B6750759E3B6E19664 /* Pods.debug.xcconfig */,
+				9CB4FAFEEA7E577CB6BC94E8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50FB35956B716B7556801133 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC222E0E1AC96AF900C31CAA /* Crashlytics.framework */,
+				EC222E0F1AC96AF900C31CAA /* Fabric.framework */,
+				EC4339061ABB0974004BAF5E /* CoreLocation.framework */,
+				EC4339041ABB096C004BAF5E /* CoreBluetooth.framework */,
+				EC4338FD1AB6FFA0004BAF5E /* AVFoundation.framework */,
+				87955A469A0D226109C367B8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC4338C91AB6FB3E004BAF5E = {
+			isa = PBXGroup;
+			children = (
+				EC7AD5901AD2BB2400D94C7C /* appSettings.plist */,
+				EC4338FB1AB6FB89004BAF5E /* CL_MAP_FLOOR_A.png */,
+				EC9A9F861ABEEFDF00164B97 /* mapData.json */,
+				EC4338D41AB6FB3E004BAF5E /* BeaconNav */,
+				EC4338D31AB6FB3E004BAF5E /* Products */,
+				2E2F0140FAC1C584A7D4798E /* Pods */,
+				50FB35956B716B7556801133 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC4338D31AB6FB3E004BAF5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC4338D21AB6FB3E004BAF5E /* BeaconNav.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC4338D41AB6FB3E004BAF5E /* BeaconNav */ = {
+			isa = PBXGroup;
+			children = (
+				EC4338D91AB6FB3E004BAF5E /* AppDelegate.h */,
+				EC4338DA1AB6FB3E004BAF5E /* AppDelegate.m */,
+				EC4338DC1AB6FB3E004BAF5E /* ViewController.h */,
+				EC4338DD1AB6FB3E004BAF5E /* ViewController.m */,
+				EC4338DF1AB6FB3E004BAF5E /* Main.storyboard */,
+				EC4338E21AB6FB3E004BAF5E /* Images.xcassets */,
+				EC4338E41AB6FB3E004BAF5E /* LaunchScreen.xib */,
+				EC4338D51AB6FB3E004BAF5E /* Supporting Files */,
+			);
+			path = BeaconNav;
+			sourceTree = "<group>";
+		};
+		EC4338D51AB6FB3E004BAF5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC4338D61AB6FB3E004BAF5E /* Info.plist */,
+				EC4338D71AB6FB3E004BAF5E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC4338D11AB6FB3E004BAF5E /* BeaconNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4338F51AB6FB3E004BAF5E /* Build configuration list for PBXNativeTarget "BeaconNav" */;
+			buildPhases = (
+				6EDC71C6C7AF1460DE20CE49 /* Check Pods Manifest.lock */,
+				EC4338CE1AB6FB3E004BAF5E /* Sources */,
+				EC4338CF1AB6FB3E004BAF5E /* Frameworks */,
+				EC4338D01AB6FB3E004BAF5E /* Resources */,
+				9D1F36456512452EE685EAF7 /* Copy Pods Resources */,
+				EC222E0D1AC96AD400C31CAA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeaconNav;
+			productName = BeaconNav;
+			productReference = EC4338D21AB6FB3E004BAF5E /* BeaconNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC4338CA1AB6FB3E004BAF5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = PavelY;
+				TargetAttributes = {
+					EC4338D11AB6FB3E004BAF5E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = EC4338CD1AB6FB3E004BAF5E /* Build configuration list for PBXProject "BeaconNav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC4338C91AB6FB3E004BAF5E;
+			productRefGroup = EC4338D31AB6FB3E004BAF5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC4338D11AB6FB3E004BAF5E /* BeaconNav */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC4338D01AB6FB3E004BAF5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4338E11AB6FB3E004BAF5E /* Main.storyboard in Resources */,
+				EC4338E61AB6FB3E004BAF5E /* LaunchScreen.xib in Resources */,
+				EC9A9F871ABEEFDF00164B97 /* mapData.json in Resources */,
+				EC7AD5911AD2BB2400D94C7C /* appSettings.plist in Resources */,
+				EC4338FC1AB6FB89004BAF5E /* CL_MAP_FLOOR_A.png in Resources */,
+				EC4338E31AB6FB3E004BAF5E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EDC71C6C7AF1460DE20CE49 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D1F36456512452EE685EAF7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC222E0D1AC96AD400C31CAA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 439b012fd831d4749b577ac7494484df20ffd237 7ccb05a21d2ce17d73c7cd88308a5e528d7272b1343b6032a17846aded84a8b0";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC4338CE1AB6FB3E004BAF5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4338DE1AB6FB3E004BAF5E /* ViewController.m in Sources */,
+				EC4338DB1AB6FB3E004BAF5E /* AppDelegate.m in Sources */,
+				EC4338D81AB6FB3E004BAF5E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC4338DF1AB6FB3E004BAF5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4338E01AB6FB3E004BAF5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC4338E41AB6FB3E004BAF5E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4338E51AB6FB3E004BAF5E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC4338F31AB6FB3E004BAF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC4338F41AB6FB3E004BAF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC4338F61AB6FB3E004BAF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1DCE5B6750759E3B6E19664 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pavel Yankelevich (UCERH6TMLJ)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = BeaconNav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "338ac298-892d-47ed-b586-9143f5e9901f";
+			};
+			name = Debug;
+		};
+		EC4338F71AB6FB3E004BAF5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB4FAFEEA7E577CB6BC94E8 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pavel Yankelevich (UCERH6TMLJ)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = BeaconNav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "338ac298-892d-47ed-b586-9143f5e9901f";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC4338CD1AB6FB3E004BAF5E /* Build configuration list for PBXProject "BeaconNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4338F31AB6FB3E004BAF5E /* Debug */,
+				EC4338F41AB6FB3E004BAF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4338F51AB6FB3E004BAF5E /* Build configuration list for PBXNativeTarget "BeaconNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4338F61AB6FB3E004BAF5E /* Debug */,
+				EC4338F71AB6FB3E004BAF5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC4338CA1AB6FB3E004BAF5E /* Project object */;
+}
